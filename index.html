@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Introduction to WMAPP</title>
+    <link href="./css/03-foundation.css" rel="stylesheet" />
+    <link href="./css/12-foundation-datepicker.css" rel="stylesheet" />
+    <!-- Vendor JS Libraries -->
+    <script src="./third/03-jquery-2.1.1.min.js"></script>
+    <script src="./third/09-underscore-1.8.3.min.js"></script>
+    <script src="./third/10-underscore.string.min.js"></script>
+    <script src="./third/09-underscore-1.8.3.min.js"></script>
+    <script src="./third/11-backbone-1.1.2.js"></script>
+    <script src="./third/12-backbone-associations-wmapp-0.6.2.js"></script>
+    <script src="./third/13-backbone.paginator-2.0.0.js"></script>
+    <script src="./third/18-backgrid.min.js"></script>
+    <script src="./third/19-backgrid-paginator.min.js"></script>
+    <script src="./third/14-backbone.marionette-2.4.7.js"></script>
+    <script src="./third/17-backbone.collectionView-0.11.1.min.js"></script>
+    <script src="./third/20-backbone.validation.js"></script>
+    <script src="./third/20-foundation.js"></script>
+    <script src="./third/21-foundation-datepicker.js"></script>
+    <script src="./third/07-log4javascript.min.js"></script>
+    <!-- WMAPP Libaries -->
+    <script src="./third/lib/wmapp.init.js"></script>
+    <script src="./third/lib/wmapp.extension.module.js"></script>
+    <script src="./third/lib/wmapp.extension.router.js"></script>
+    <script src="./third/lib/wmapp.extension.application.js"></script>
+    <script src="./third/lib/wmapp.extension.view.js"></script>
+    <script src="./third/lib/wmapp.extension.model.js"></script>
+    <script src="./third/lib/wmapp.backbone.dualsync.js"></script>
+    <script src="./third/lib/wmapp.backbone.dao.js"></script>
+    <script src="./third/lib/wmapp.helper.js"></script>
+    <script src="./third/lib/wmapp.log.js"></script>
+    <!-- Tutorial Files -->
+    <!-- TODO -->
+  </head>
+  <body>
+    <div id="content">
+      <!-- This is how we define the container for a tile -->
+      <!-- More on the data-*-id properties later, for now, just set them all to zero -->
+      <div
+        class="wmapp-tile"
+        id="wmappTileIntroHelloWorldTile"
+        data-tile-type="intro_hello_world_tile"
+        data-feature-plugin-id="0"
+        data-feature-tile-id="0"
+        data-page-tile-id="0"
+      >
+        <div id="wmappTileInner0"></div>
+      </div>
+    </div>
+  </body>
+  <!-- Tutorial Files -->
+  <!-- Intro Module -->
+  <script src="./js/intro.module.js"></script>
+  <!-- Intro Views -->
+  <script src="./js/views/intro.hello_world_tile.view.js"></script>
+  <!-- Intro Application -->
+  <script src="js/applications/intro.hello_world_tile.application.js"></script>
+  <!-- Intro Models -->
+  <script src="js/models/intro.book.model.js"></script>
+  <!-- Intro Routers -->
+  <script src="js/routers/intro.hello_world_tile.router.js"></script>
+</html>
